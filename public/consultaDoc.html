@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Consultar Datos</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+Inscriptional+Pahlavi&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/Animated-Toggle-NavBar-BS5.css">
+    <link rel="stylesheet" href="assets/css/CanitoFormulario-Compra.css">
+    <link rel="stylesheet" href="assets/css/Clean-Button-Scale-Hover-Effect.css">
+    <link rel="stylesheet" href="assets/css/Contact-Form-by-Moorcam.css">
+    <link rel="stylesheet" href="assets/css/Cute-Select.css">
+    <link rel="stylesheet" href="assets/css/dropdown-search-bs4.css">
+    <link rel="stylesheet" href="assets/css/Features-Small-Icons-Color-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.2/css/theme.bootstrap_4.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
+    <link rel="stylesheet" href="assets/css/Ludens---Create-Edit-Form.css">
+    <link rel="stylesheet" href="assets/css/Ludens---Index-with-Backend--Frontend-Filters.css">
+    <link rel="stylesheet" href="assets/css/Ludens-Client---Login-Dropdown.css">
+    <link rel="stylesheet" href="assets/css/Mega-Menu-Dropdown-100-Editable---Ambrodu.css">
+    <link rel="stylesheet" href="assets/css/Menu-dropdown-xl.css">
+    <link rel="stylesheet" href="assets/css/Section-Title.css">
+    <link rel="stylesheet" href="assets/css/Table-With-Search-search-table.css">
+    <link rel="stylesheet" href="assets/css/Table-With-Search.css">
+    <link rel="stylesheet" href="assets/css/Vertical-Tabs.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark fixed-top bg-dark" style="padding-bottom: 7px;">
+        <div class="container"><a class="navbar-brand" href="#">Break&amp;Learn</a><button data-bs-toggle="collapse" class="navbar-toggler collapsed" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse text-center" id="navcol-1">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="indexDoc.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="materialDoc.html">Material</a></li>
+                    <li class="nav-item"><a class="nav-link" href="ejerciciosmainDoc.html">Ejercicios</a></li>
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#">Opciones</a>
+                        <div class="dropdown-menu"><a class="dropdown-item" href="actividadesDoc.html">Actividades</a><a class="dropdown-item" href="editDoc.html">Editar cuenta</a></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <form id="contactForm" action="javascript:void();" method="get">
+            <div class="row text-start" style="padding: 0px;">
+                <div class="col"></div>
+                <div class="col-md-6" id="message" style="margin-top: 83px;">
+                    <fieldset>
+                        <legend style="font-style: normal;font-weight: bold;font-size: 28px;">Consulta de cuenta</legend>
+                    </fieldset>
+                    <div class="has-feedback form-group mb-3"><label class="form-label" for="from_name" style="font-size: 20px;">Estado</label><select class="form-select" style="font-size: 21px;">
+                            <option value="">Ciudad de Mexico</option>
+                            <option value="undefined">Estado de Mexico</option>
+                        </select></div>
+                    <div class="has-feedback form-group mb-3"><label class="form-label" for="from_name" style="font-size: 20px;">Nombre</label><input class="form-control" type="text" id="from_name" tabindex="-1" name="from_name" required="" style="font-size: 21px;" inputmode="latin-name"></div>
+                    <div class="has-feedback form-group mb-3"><label class="form-label" for="from_email" style="font-size: 20px;">Email</label><input class="form-control" type="tel" style="font-size: 21px;" inputmode="email" required=""></div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="has-feedback form-group mb-3"><label class="form-label" for="from_phone" style="font-size: 20px;">Teléfono</label><input class="form-control" type="tel" style="font-size: 21px;" inputmode="tel" required=""></div>
+                        </div>
+                    </div>
+                    <div class="form-group mb-3"><button class="btn btn-secondary d-block w-100" type="submit">ENVIAR &nbsp;<i class="fa fa-chevron-circle-right"></i></button></div>
+                    <hr>
+                </div>
+                <div class="col"></div>
+            </div>
+        </form>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/dropdown-search-bs4.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.2/js/jquery.tablesorter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.2/js/widgets/widget-filter.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.2/js/widgets/widget-storage.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="assets/js/Ludens---Create-Edit-Form-1.js"></script>
+    <script src="assets/js/Ludens---Create-Edit-Form.js"></script>
+    <script src="assets/js/Ludens---Index-with-Backend--Frontend-Filters-1.js"></script>
+    <script src="assets/js/Ludens---Index-with-Backend--Frontend-Filters.js"></script>
+    <script src="assets/js/mini-card-items.js"></script>
+    <script src="assets/js/Table-With-Search.js"></script>
+</body>
+
+</html>

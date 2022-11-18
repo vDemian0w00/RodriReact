@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg"
+><metadata
+></metadata
+><defs
+><font horiz-adv-x="512"
+><font-face font-family="slick" units-per-em="512" ascent="475" descent="0"
+></font-face
+><missing-glyph horiz-adv-x="512" d=""
+></missing-glyph
+><glyph unicode="a" d="M475 439V311q0 -8 -5 -13t-13 -5H329q-11 0 -17 11q-5 11 4 20l40 39q-42 39 -100 39q-29 0 -57 -11Q171 379 153 359Q133 341 121 313Q110 285 110 256t11 -57q12 -28 32 -46q18 -20 46 -32q28 -11 57 -11q34 0 64 15q32 14 51 42q6 3 7 3q4 0 7 -3l39 -39q3 -3 3 -6q0 -2 -2 -6Q392 77 349 57Q308 37 256 37q-47 0 -85 17q-44 20 -70 47Q74 127 54 171Q37 209 37 256t17 85q20 44 47 70q26 27 70 47q38 17 85 17q42 0 81 -15q41 -17 70 -45l37 37q8 8 20 4q11 -6 11 -17Z"
+></glyph
+><glyph unicode="&#x2022;" d="M475 318t0 -62T446 146Q416 96 366 66Q318 37 256 37T146 66Q96 96 66 146Q37 194 37 256T66 366q30 50 80 80q48 29 110 29T366 446q50 -30 80 -80q29 -48 29 -110Z"
+></glyph
+><glyph unicode="&#x2190;" d="M296 113l29 30q6 5 6 12q0 9 -6 13l-87 88l87 88q6 4 6 13q0 7 -6 12l-29 30q-5 5 -13 5q-7 0 -12 -5L141 269q-6 -6 -6 -13t6 -13L271 113q5 -5 12 -5q8 0 13 5ZM475 318t0 -62T446 146Q416 96 366 66Q318 37 256 37T146 66Q96 96 66 146Q37 194 37 256T66 366q30 50 80 80q48 29 110 29T366 446q50 -30 80 -80q29 -48 29 -110Z"
+></glyph
+><glyph unicode="&#x2192;" d="M241 113L371 243q6 6 6 13t-6 13L241 399q-5 5 -12 5q-8 0 -13 -5L187 369q-6 -5 -6 -12q0 -9 6 -13l87 -88L187 168q-6 -4 -6 -13q0 -7 6 -12l29 -30q5 -5 13 -5q7 0 12 5ZM475 318t0 -62T446 146Q416 96 366 66Q318 37 256 37T146 66Q96 96 66 146Q37 194 37 256T66 366q30 50 80 80q48 29 110 29T366 446q50 -30 80 -80q29 -48 29 -110Z"
+></glyph
+></font
+></defs
+><g style="font-family: &quot;slick&quot;; font-size:50;fill:black"
+><text x="20" y="50"
+>!&quot;#$%&amp;&#39;()*+,-./0123456789:;&#229;&lt;&gt;?</text
+><text x="20" y="100"
+>@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_</text
+><text x="20" y="150"
+>` abcdefghijklmnopqrstuvwxyz|{}~</text
+></g
+></svg
+>
